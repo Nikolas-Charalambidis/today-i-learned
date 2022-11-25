@@ -2,7 +2,7 @@
 
 ## Directories and files
 
-### List the sizes 
+### List the sizes ([source](https://stackoverflow.com/a/1019124/3764965))
 
 ```shell
 du -hs .
