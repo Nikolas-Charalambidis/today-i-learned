@@ -2,7 +2,8 @@
 
 ## Directories and files
 
-### List the sizes (source: [StackOverflow](https://stackoverflow.com/a/1019124/3764965))
+### List the sizes 
+<sup>22-11-2022, source: [StackOverflow](https://stackoverflow.com/a/1019124/3764965)</sup>
 
 ```shell
 du -hs .
