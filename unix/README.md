@@ -1,5 +1,21 @@
 # Unix
 
+## Conditions
+
+### Is a program installed
+<sup>29-11-2022, source: [StackOverflow](https://unix.stackexchange.com/a/288402/550665)</sup>
+
+```shell
+# Node.js for example
+if which node > /dev/null
+then
+    echo "Using Node.js version: $(node -v)"
+else
+    echo "Node.js not installed"
+    exit 1
+fi
+```
+
 ## Directories and files
 
 ### List the sizes 
