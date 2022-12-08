@@ -39,3 +39,12 @@ curl https://gorest.co.in/public/v2/users | python -m json.tool
 ```shell
 curl https://gorest.co.in/public/v2/users | python3 -m json.tool
 ```
+
+## Git
+
+### Count changes lines between branches
+<sup>25-11-2022, source: self</sup>
+
+```shell
+echo $(git diff --shortstat develop)
+```
