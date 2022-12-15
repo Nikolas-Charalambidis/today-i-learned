@@ -18,12 +18,22 @@ fi
 
 ## Directories and files
 
-### List the sizes 
+### List the file types (estimate)
+<sup>05-12-2022, source: [StackOverflow](https://superuser.com/a/1490807/776068)</sup>
+
+```shell
+find . -type f -exec file -- {} +
+```
+- `file` determines file type
+- `-f namefile`/`--files-from namefile` specifies a particular file
+
+### List the file sizes 
 <sup>22-11-2022, source: [StackOverflow](https://stackoverflow.com/a/1019124/3764965)</sup>
 
 ```shell
 du -hs .
 ```
+- `du` displays disk usage statistics
 - `-h` stands for a human readable format.
 - `-s` stands for the files only (depth is 0, i. e. `-d 0`).
 - By default, the `du` program recursively lists the directories.
