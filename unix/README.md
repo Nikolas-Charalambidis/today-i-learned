@@ -18,6 +18,13 @@ fi
 
 ## Directories and files
 
+### Make the file executable
+<sup>23-12-2022, source: self</sup>
+
+```shell
+chmod +x script.sh
+```
+
 ### List the file types (estimate)
 <sup>05-12-2022, source: [StackOverflow](https://superuser.com/a/1490807/776068)</sup>
 
