@@ -24,6 +24,9 @@ fi
 ```shell
 chmod +x script.sh
 ```
+```shell
+chmod +x *.sh
+```
 
 ### List the file types (estimate)
 <sup>05-12-2022, source: [StackOverflow](https://superuser.com/a/1490807/776068)</sup>
@@ -44,6 +47,15 @@ du -hs .
 - `-h` stands for a human readable format.
 - `-s` stands for the files only (depth is 0, i. e. `-d 0`).
 - By default, the `du` program recursively lists the directories.
+
+### List recursively files and occurrences containing a text
+<sup>17-08-2022, source: self</sup>
+
+```shell
+grep -R 'text' .
+```
+
+- `-R`/`-r`/`--recursive` forces recursive search
 
 ## CURL
 
