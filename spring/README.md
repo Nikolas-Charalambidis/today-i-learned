@@ -12,9 +12,9 @@
 ContextLoader.getCurrentWebApplicationContext().getBean("myBean", MyBean.class);
 ```
 
-### Get Spring proxy true target class
+### Get Spring proxy true target class
 
-<sup>09-12-2022, source: [StackOverflow](https://stackoverflow.com/a/67644912/3764965)</sup>
+<sup>10-01-2023, source: [StackOverflow](https://stackoverflow.com/a/67644912/3764965)</sup>
 
 ```java
 final Class<?> targetClass = AopUtils.getTargetClass(object);
